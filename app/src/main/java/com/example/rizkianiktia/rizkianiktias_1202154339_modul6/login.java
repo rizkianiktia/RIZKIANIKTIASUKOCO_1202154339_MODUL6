@@ -64,11 +64,15 @@ public class login extends AppCompatActivity {
         String inuser = user.getText().toString();
         String inpass = pass.getText().toString();
 
+
         //Apakah user input kosong?
         //Jika tidak :
         if(!TextUtils.isEmpty(inuser)||!TextUtils.isEmpty(inpass)){
 
             //Menampilkan dialog
+            //validasi kosong
+
+
             dlg.show();
 
             //Login dengan email dan password yang diinputkan user user
